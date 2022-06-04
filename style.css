@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+header li, header a, header button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    background-color: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+body {
+    background-color: #34495e;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+header button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+header button:hover {
+    background-color: rgba(0,136,169, 0.8);
+}
+#loginbox {
+    width: 350px;
+    padding-top: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+#registerbox {
+    width: 350px;
+    padding-top: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.forma h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.forma input[type = "text"], form input[type = "password"], form input[type = "email"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.forma input[type = "text"]:focus, form input[type = "password"]:focus, form input[type = "email"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.btn {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    margin-bottom: 40px;
+}
+form {
+    font-family: Arial;
+}
+.forma a, .forma p {
+    color: #5a5a5a;
+    text-align:left;
+    padding: 0 0 20px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.error p {
+    padding: 0;
+    color: #a94441;
+}
+header div table td {
+    padding: 0 15px;
+}
+header p {
+    color: white;
+}
+.card {
+    box-shadow: 0 0 5px 3px #1f2b38;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    width: 300px;
+    background-color: #191919;
+    padding: 20px;
+    height: 441px;
+}
+.card h1 {
+    font-size: 25px;
+    color: white;
+}
+.card h2 {
+    font-size: 18px;
+    color: rgb(172, 172, 172);
+    height: 41px;
+    overflow: hidden;
+}
+.card h3 {
+    font-size: 30px;
+    color: white;
+}
+.card .a {
+    appearance: button;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 20px;
+    padding: 5px;
+    border: 0;
+}
+.card img {
+    width: 264px;
+}
+.card button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: white;
+    opacity: 0;
+    border: 0;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: -20px;
+    background-color: rgb(124, 12, 12);
+}
+.card button:hover {
+    opacity: 1.0;
+}
+.card input {
+    position: absolute;
+    opacity: 0;
+}
+.korpa {
+    text-align:center;
+    width:750px;
+    margin:auto;
+    background-color: #191919;
+    margin-top: 200px;
+    padding-top: 40px;
+}
+.korpa hr {
+    width: 500px;
+    margin:auto;
+}
+.korpa table {
+    margin: auto;
+}
+.korpa td {
+    color: white;
+    padding: 10px;
+}
+.korpa b {
+    color: rgb(173, 173, 173);
+}
+.korpa h1 {
+    color: white;
+}
+.korpa a {
+    color: rgb(173, 173, 173);
+}
+.korpa button {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: 0;
+    cursor: pointer;
+}
+.kontakt img {
+    width:50px;
+    margin:3px 8px;
+}
+.kontakt table {
+    margin:auto;
+    text-align: center;
+    font-weight: 600;
+}
+.kontakt {
+    border: 2px black solid;
+    width:300px;
+    text-align: center;
+    float: left;
+    margin: 50px 0 0 180px;
+}
+.levo {
+    width: 105px;
+    height: 70%;
+    float: left;
+}
+#card {
+    height: 441px;
+    color: #191919;
+    font-size: 70px;
+    padding-top: 175px;
+    font-weight:bolder;
+}
+#card:hover {
+    color: white;
+}
+#card p {
+    cursor: pointer;
+}
+#pforma {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    height: 400px;
+    background-color: #24252A;
+    padding-top: 30px;
+    display: none;
+}
+#pforma input {
+    margin: 20px 20px 0px 65px;
+    height:25px;
+}
+#pforma textarea {
+    margin: 20px 20px 0px 65px;
+    height:125px;
+}
+#pforma button:last-of-type {
+    width: 90px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+#pforma button:first-of-type {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 270px;
+    margin-top: -28px;
+    background-color: rgb(124, 12, 12);
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+.ss {
+    margin: auto;
+    width: 555px;
+    height: 320px;
+    background-color: white;
+    margin-top: 25px;
+    position: absolute;
+    left: 35%;
+}
+.ss img {
+    border: 10px solid #191919;
+}
+.ss a {
+    color: white;
+    position: absolute;
+    top: 42%;
+    font-size: 30px;
+    cursor: pointer;
+}
+.ss a:first-of-type{
+    left: 4%;
+}
+.ss a:last-of-type{
+    left: 93%;
+}
+.noviproizvodi {
+    position: absolute;
+    width: 200px;
+    height: 580px;
+    background-color: #191919;
+    left: 77%;
+    top: 15%;
+    text-align: center;
+}
+.noviproizvodi h1 {
+    color: white;
+    font-size: 20px;
+    font-variant: small-caps;
+    margin-bottom: 40px;
+}
+.newcard {
+    margin-top: -20px;
+    text-align: center;
+    width: 200px;
+    padding: 0;
+    height: 200px;
+}
+.newcard h2 {
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+}
+.newcard img {
+    width: 124px;
+}
