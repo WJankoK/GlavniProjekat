@@ -1,6 +1,6 @@
 # GlavniProjekat
-Projekat za kraj srednje skole
+Final project for graduating high school
 
-Ovo je projekat koji sam uradio na kraju srednje skole, 
-tema je bila online prodavnica koja je povezana sa bazom podataka u PHP-u 
-i desktop aplikacija koja je povezana sa bazom podataka u C#-u.
+This is a project that I did at the end of high school,
+the task was online web shop that was connected to a database in PHP
+and a desktop application that was connected to a database in C#.
